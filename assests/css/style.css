@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+h2 {
+    background-color:red;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: slategray;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    align-content: space-around;
+}
+
+footer {
+
+}
+
+section {
+
+}
+
+.hero {
+    background-image: url("../images/Banner.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-content:space-around
+}
+
+.hero-links {
+    background-image: url("../images/Logo.png");
+    background-size: cover;
+    background-position: center;
+    color:darkgoldenrod;
+    border: 3px solid red;
+    position:absolute;
+    bottom: 75px;
+    right: 75px;
+    padding: 20px;
+    height:400px;
+    width: 400px;
+}
