@@ -133,3 +133,6 @@ section {
 button div {
     display: none;
 }
+#most-recent-episode {
+    width: 50%;
+}
