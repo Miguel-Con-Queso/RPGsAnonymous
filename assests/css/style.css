@@ -129,3 +129,7 @@ section {
 .cast-bio p {
     font-size: 20px;
 }
+
+button div {
+    display: none;
+}
