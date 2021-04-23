@@ -5,7 +5,7 @@
 }
 
 body {
-
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -13,20 +13,42 @@ h2 {
 }
 
 header {
-    padding: 20px 35px;
+    padding: 20px 35px 5px 35px;
     background-color: black;
+    font-style: italic;
 }
 
 header h1 {
     font-weight: bolder;
-    font-size: 36px;
-    display: flex;
+    font-size: 40px;
+    display: inline;
     color: darkgoldenrod;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+header nav {
+    float: right;
+    margin: auto 0 auto 0;
 }
 
 header nav ul {
     display: flex;
     align-content: space-around;
+}
+
+header nav ul li {
+    display: flex;
+
+}
+
+header nav ul li a {
+    margin:  0px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 footer {
@@ -39,23 +61,64 @@ section {
 
 .hero {
     background-image: url("../images/Banner.png");
-    height: 400px;
+    height: 410px;
     background-size: cover;
     background-position: center;
     position: relative;
-    align-content:space-around
+    align-content:space-around;
 }
 
-.hero-links {
-    background-image: url("../images/Logo.png");
-    background-size: cover;
-    background-position: center;
-    color:darkgoldenrod;
+.hero-support {
+    background-color: darkgoldenrod;
+    color: black;
     border: 3px solid red;
     position:absolute;
-    bottom: 75px;
-    right: 75px;
-    padding: 20px;
-    height:400px;
-    width: 400px;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    padding: 10px;
+    height:410px;
+    width: 500px;
+    text-align: center;
+}
+
+.hero-support h3 {
+    color:black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero-support p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 0 15px 0;
+    align-content: space-around;
+}
+
+.links label, .links a {
+    font-size: 30px;
+}
+
+.cast {
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+.cast img {
+    height: 100px;
+    width: 100px;
+}
+
+.cast-bio {
+    margin-left: 10px;
+}
+
+.cast-bio h3 {
+    font-size: 30px;
+}
+
+.cast-bio p {
+    font-size: 20px;
 }
