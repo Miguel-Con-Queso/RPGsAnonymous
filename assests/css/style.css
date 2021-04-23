@@ -130,6 +130,6 @@ section {
     font-size: 20px;
 }
 
-button div {
+#so-far, #cast-members, #supporters, #other-projects {
     display: none;
 }
