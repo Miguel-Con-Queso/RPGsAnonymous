@@ -133,3 +133,6 @@ section {
 #so-far, #cast-members, #supporters, #other-projects {
     display: none;
 }
+#most-recent-episode {
+    width: 50%;
+}
