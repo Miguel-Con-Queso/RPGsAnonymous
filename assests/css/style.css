@@ -100,6 +100,13 @@ section {
     font-size: 30px;
 }
 
+.box button {
+    color: black;
+    background-color: red;
+    border: 1px black solid;
+    font-size: 40px
+}
+
 .cast {
     display: flex;
     margin: 20px;
