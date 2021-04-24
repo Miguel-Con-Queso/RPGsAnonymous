@@ -56,7 +56,17 @@ header nav ul li a {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+footer h2 {
+
+}
+
+footer div {
+    line-height: 1.5;
 }
 
 section {
@@ -66,25 +76,33 @@ section {
 
 .hero {
     background-image: url("../images/Banner.png");
-    height: 410px;
     background-size: cover;
     background-position: center;
-    position: relative;
-    align-content:space-around;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-textblock {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-textblock h2 {
+    font-size: 50px;
 }
 
 .hero-support {
     background-color: darkgoldenrod;
     color: black;
     border: 3px solid red;
-    position:absolute;
-    top: auto;
-    bottom: auto;
-    right: 0;
     padding: 10px;
-    height:410px;
-    width: 500px;
-    text-align: center;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-support h3 {
