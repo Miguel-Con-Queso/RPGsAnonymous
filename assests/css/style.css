@@ -16,12 +16,14 @@ header {
     padding: 20px 35px 5px 35px;
     background-color: black;
     font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bolder;
     font-size: 40px;
-    display: inline;
     color: darkgoldenrod;
 }
 
@@ -31,7 +33,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: auto 0 auto 0;
 }
 
@@ -58,6 +59,7 @@ footer {
 section {
 
 }
+
 
 .hero {
     background-image: url("../images/Banner.png");
@@ -100,11 +102,20 @@ section {
     font-size: 30px;
 }
 
+.box {
+    padding: 5px 0;
+}
+
 .box button {
     color: black;
     background-color: red;
     border: 1px black solid;
     font-size: 40px
+}
+
+#about-us {
+    text-align: center;
+    font-size: 40px;
 }
 
 .cast {
@@ -133,6 +144,7 @@ section {
 #so-far, #cast-members, #supporters, #other-projects {
     display: none;
 }
+
 #most-recent-episode {
     width: 50%;
 }
