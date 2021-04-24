@@ -38,7 +38,10 @@ header nav {
 
 header nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-content: space-around;
+    list-style: none;
 }
 
 header nav ul li {
@@ -49,7 +52,7 @@ header nav ul li {
 header nav ul li a {
     margin:  0px 30px 10px 30px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.55vw;
 }
 
 footer {
