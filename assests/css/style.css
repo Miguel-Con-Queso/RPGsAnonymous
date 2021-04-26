@@ -19,6 +19,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/Banner.png");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999:
 }
 
 header h1 {
@@ -55,6 +63,13 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+header nav ul li a:hover {
+    background: red;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -77,9 +92,11 @@ section {
 .hero {
     background-image: url("../images/Banner.png");
     background-size: cover;
-    background-position: center;
+    background-position: 80%;
     position: relative;
     align-items: flex-start;
+    background-attachment: fixed;
+    z-index: 1;
 }
 
 .hero-textblock {
@@ -89,6 +106,7 @@ section {
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-textblock h2 {
@@ -96,12 +114,14 @@ section {
 }
 
 .hero-support {
-    background-color: darkgoldenrod;
+    background-color: rgba(184, 134, 11, 0.8);
     color: black;
     border: 3px solid red;
     padding: 10px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-support h3 {
@@ -136,7 +156,8 @@ section {
     color: black;
     background-color: red;
     border: 1px black solid;
-    font-size: 40px
+    font-size: 40px;
+    border-radius: 10px;
 }
 
 
@@ -180,6 +201,7 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
       }
     
       header h1 {
