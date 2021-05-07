@@ -184,6 +184,10 @@ section {
 .cast-bio p {
     font-size: 20px;
 }
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+}
 
 #so-far, #cast-members, #supporters, #other-projects {
     display: none;
