@@ -13,7 +13,7 @@ h2 {
 }
 
 header {
-    padding: 20px 35px 5px 35px;
+    padding: 20px 35px;
     background-color: black;
     font-style: italic;
     display: flex;
@@ -26,7 +26,7 @@ header {
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
-    z-index: 9999:
+    z-index: 9999;
 }
 
 header h1 {
@@ -41,7 +41,7 @@ header a {
 }
 
 header nav {
-    margin: auto 0 auto 0;
+    margin: 8px 0;
 }
 
 header nav ul {
@@ -92,11 +92,12 @@ section {
 .hero {
     background-image: url("../images/Banner.png");
     background-size: cover;
+    display: flex;
+    justify-content: center;
     background-position: 80%;
-    position: relative;
+    flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    z-index: 1;
 }
 
 .hero-textblock {
